@@ -1,0 +1,57 @@
+html, body{
+	margin: 0;
+	text-align: center;
+	height: 100%;
+}
+
+#pagetop{
+	position: fixed;
+	top: 0px;
+	width:100%;
+	height: 200px;
+	background: #06C;
+	color: #FFF;
+	font-size: 23px;
+	transition: height 0.3s linear 0s, padding 0.3s linear 0s;
+	overflow:hidden;
+}
+
+#pagetop > #menu{
+	position: absolute;
+	bottom: 0px;
+	width:100%;
+	background: #004A95;
+	height: 50px;
+	transition: height 0.3s linear 0s;
+}
+
+#pagetop > #logo{
+	background: #8485E8;
+	display: inline-block;
+	height: 100%;
+	width: 200px;
+}
+
+.navigationButtons {
+	font-size: 20px;
+}
+
+#footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background: #A2BCFF;
+	color: #FFFFFF;
+	font-size: 23px;
+}
+
+#content{
+	display: inline-block;
+  	padding-top: 200px;
+  	padding-bottom: 50px;
+	width: 80%;
+	min-height: 100%;
+	margin: 0 auto;
+	background: #E8619C;
+}
