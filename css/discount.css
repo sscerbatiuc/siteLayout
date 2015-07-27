@@ -1,0 +1,15 @@
+.containerBox{
+	padding-top: 20px;
+}
+
+#christmasDiscountBox{
+	display: inline-block;
+	height: 100%;
+	background: red;
+}
+
+#vipDiscountBox{
+	display: inline-block;
+	height: 100%;
+	background: blue;
+}
